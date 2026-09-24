@@ -1,3 +1,5 @@
+@import 'slider.css';
+
 /* =========================================
    CONFIGURACIÓN GENERAL
 ========================================= */
@@ -75,12 +77,89 @@ body {
 ========================================= */
 
 .navbar {
-    height: 90px;
+    position: relative;
+    width: 100%;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
-    z-index: 2;
+    padding: 0 55px;
+    box-sizing: border-box;
+}
+
+.search-field {
+    flex: 1;
+    min-width: 0;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 14px;
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid #d8e7f3;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.search-field > div {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.search-field small {
+    color: #71869b;
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+
+.search-field span {
+    color: #71869b;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.search-icon {
+    color: #247ed1;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.search-button {
+    height: 48px;
+    padding: 0 24px;
+    border: none;
+    border-radius: 10px;
+    background: #287fd0;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.search-button:hover {
+    background: #1f70bd;
+}
+
+.search-box {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    max-width: 760px;
+    display: flex;
+    align-items: stretch;
+    gap: 8px;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(60, 130, 180, 0.08);
+    box-sizing: border-box;
 }
 
 /* LOGO */
@@ -92,6 +171,7 @@ body {
     font-size: 21px;
     font-weight: 600;
     color: #172f59;
+    flex-shrink: 0;
 }
 
 .logo strong {
@@ -105,14 +185,10 @@ body {
 
     width: 34px;
     height: 34px;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     border-radius: 10px;
-
     background: linear-gradient(
         135deg,
         #2878d4,
@@ -121,6 +197,13 @@ body {
 
     color: white;
     font-size: 17px;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
 }
 
 /* =========================================
@@ -327,7 +410,7 @@ body {
 
 .categorias {
 
-    margin-top: 42px;
+    margin-top: 20px;
 }
 
 .categorias h2 {
