@@ -39,4 +39,4 @@ El sistema muestra establecimientos cercanos con:
 | Ubicación             | Distancia y ruta desde el usuario      |
 | Teléfono              | Contacto directo                       |
 | Servicios disponibles | Qué atención ofrece en ese momento     |
-
+|
