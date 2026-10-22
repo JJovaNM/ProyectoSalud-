@@ -1,5 +1,4 @@
 # Proyecto Salud
-=======
 **Conectando a las personas con el servicio de salud correcto, en el momento correcto.**
 
 Directorio inteligente de servicios médicos que orienta al usuario hacia el centro de salud más adecuado según su situación, ubicación, servicios disponibles, distancia y tiempo de traslado.
@@ -39,5 +38,4 @@ El sistema muestra establecimientos cercanos con:
 | Ubicación             | Distancia y ruta desde el usuario      |
 | Teléfono              | Contacto directo                       |
 | Servicios disponibles | Qué atención ofrece en ese momento     |
->>>>>>> 2410f04b7d2bd40f51a68cae1eca08d3b233d372
 
