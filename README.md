@@ -26,7 +26,7 @@ El sistema está dirigido al público en general que busca atención médica, co
 
 ## Propuesta de solución
 
-"Necesito un dentista" · "Necesito un especialista"
+"Necesito un dentista"
 
 El sistema muestra establecimientos cercanos con:
 
