@@ -38,5 +38,5 @@ jobs:
       - name: Verefy CSS reference
         run: |
           echo "Verificando referencia a styles.css..."
-          grep -q 'styles/styles.css' index.html
+          grep -q 'styles/styles.css' index.html'
           echo "referencia a styles.css encontrada."
