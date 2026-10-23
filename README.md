@@ -38,4 +38,4 @@ El sistema muestra establecimientos cercanos con:
 | Teléfono              | Contacto directo                       |
 | Servicios disponibles | Qué atención ofrece en ese momento     |
 |                       |                                        |
-|
+|                       |
