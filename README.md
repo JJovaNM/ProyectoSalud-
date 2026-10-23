@@ -26,16 +26,15 @@ El sistema está dirigido al público en general que busca atención médica, co
 
 ## Propuesta de solución
 
-"Necesito un dentista" · "Necesito un especialista"
+"Necesito un dentista"
 
 El sistema muestra establecimientos cercanos con:
 
 |      Criterio         |             Descripción                |
 |---                    |---                                     |
 | Especialidad          | Tipo de servicio médico requerido      |
-| Precio aproximado     | Costo estimado de la consulta/servicio |
 | Horario               | Disponibilidad horaria del centro      |
 | Ubicación             | Distancia y ruta desde el usuario      |
 | Teléfono              | Contacto directo                       |
 | Servicios disponibles | Qué atención ofrece en ese momento     |
-
+|
