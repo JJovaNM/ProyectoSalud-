@@ -374,17 +374,12 @@
 
     bottom: 18px;
     left: 18px;
-
-    background: rgba(255,255,255,.92);
-
+    background: rgba(223, 217, 217, 0.92);
     padding: 10px 15px;
-
     border-radius: 10px;
-
     display: flex;
     flex-direction: column;
-
-    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 
     z-index: 5;
 }
@@ -393,10 +388,8 @@
     font-size: 13px;
     color: #17213b;
 }
-
 .mapa-texto span {
     font-size: 11px;
     color: #71879a;
-
     margin-top: 3px;
 }
