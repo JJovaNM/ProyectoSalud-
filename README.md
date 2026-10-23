@@ -34,7 +34,6 @@ El sistema muestra establecimientos cercanos con:
 |      Criterio         |             Descripción                |
 |---                    |---                                     |
 | Especialidad          | Tipo de servicio médico requerido      |
-| Precio aproximado     | Costo estimado de la consulta/servicio |
 | Horario               | Disponibilidad horaria del centro      |
 | Ubicación             | Distancia y ruta desde el usuario      |
 | Teléfono              | Contacto directo                       |

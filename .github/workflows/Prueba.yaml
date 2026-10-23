@@ -1,0 +1,33 @@
+on:
+  pull_request:
+  branches:
+    - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+      # githun.com/actions en checkout es par
+      uses: actions/checkout@v7
+
+# test Evalu una condicion y -f comprueba que la ruta exista
+
+      - name: Verify index.html
+        run: |
+          echo "Verificando index.html..."
+          test -f index.html
+          echo "index.html encontrado"
+
+      - name: Verify styles.css
+        run: |
+          echo "Verificando styles.css..."
+          test -f styles/styles.css
+          echo "styles.css encontrado"
+
+      - name: Verify HTML structute
+        run: |
+
+          grep -qi "<html" index.html
+      
