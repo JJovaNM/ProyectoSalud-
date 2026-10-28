@@ -1,0 +1,23 @@
+name: testPush
+
+on:
+push:
+  branches: [Juan]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v7
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v7
+        whit:
+          commit_messagee: Archivos actualizados #Archi
+          commit_user_name: Juan
+          commit_user_email: L23070003@huetamo.tecnm.mx
+          commit_author: Juan Carlos Almaraz
