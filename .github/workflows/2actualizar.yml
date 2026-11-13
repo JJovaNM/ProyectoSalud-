@@ -1,0 +1,25 @@
+# Datos de la cuenta de GitHub de JJovaNM
+# Workflow que sube automáticamente los cambios con los datos de JJovaNM
+name: testPush
+
+on:
+  push:
+    branches: [Jovany]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v7
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Archivos actualizados #Archi"
+          commit_user_name: JJovaNM
+          commit_user_email: l23070015@huetamo.tecnm.mx
+          commit_author: JJovaNM <l23070015@huetamo.tecnm.mx>
