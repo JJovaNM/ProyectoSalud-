@@ -1,0 +1,20 @@
+name: testPush
+# Automatiza el registro de cambios del proyecto Salud Cerca en la rama kikis.
+on:
+  push:
+    branches: [kikis]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v7
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Archivos actualizados"
