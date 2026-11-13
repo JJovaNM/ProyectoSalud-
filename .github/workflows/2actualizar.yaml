@@ -1,6 +1,5 @@
 name: testPush
-
-# Revisa si existen cambios para registrar en la rama kikis.
+# Automatiza el registro de cambios del proyecto Salud Cerca en la rama kikis.
 on:
   push:
     branches: [kikis]
